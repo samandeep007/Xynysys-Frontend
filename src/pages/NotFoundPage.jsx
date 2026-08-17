@@ -1,0 +1,2 @@
+import React from "react";import {ArrowRight} from "lucide-react";import Header from "../shared/Header.jsx";import Footer from "../shared/Footer.jsx";
+export default function NotFoundPage(){return <div className="corporate-page"><div className="page-dark"><Header/><main className="not-found not-found-full"><span>404 / ROUTE NOT FOUND</span><h1>This path doesn’t<br/>lead anywhere.</h1><p>The page may have moved, or the URL may be incorrect.</p><a href="/">Return to Xynysys <ArrowRight size={15}/></a></main></div><Footer/></div>}
